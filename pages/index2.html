@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Assignment Solution</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navwrapper">
+          <div class="navlogo">
+            <i class="fa-brands fa-spotify"></i>
+            <h1><a href="/index.html">Spotify</a></h1>
+          </div>
+          <div class="navlist">
+            <ul class="navbar">
+              <li><a href="#">Premium</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Download</a></li>
+              <li><a href="#">Sign Up</a></li>
+              <li><a href="#">Log In</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <ol>
+            <li>
+                <h2>What Semantic HTML means?</h2>
+                <p>
+                    Semantic HTML is language that introduces meaning to the web page
+                    rather than just presentation. For example, a 'p' tag indicates that
+                    the enclosed text is a paragraph, Header tags 'h1' through 'h6'.It is
+                    also called semantic markup. Semantic HTML is the correct use of HTML
+                    to reinforce the meaning of content on a web page, rather than merely
+                    define its appearance.
+                  </p>
+                  <h4>Why Do You Need to Use Semantic Tags in HTML?</h4>
+                  <ul class="list">
+                    <li>
+                      It help the search engines and other user devices to determine the
+                      importance and context of web pages.
+                    </li>
+                    <li>
+                      The pages made with semantic elements are much easier to read.
+                    </li>
+                    <li>
+                      It has greater accessibility. It offers a better user experience
+                    </li>
+                  </ul>
+            </li>
+            <li class="contentlist">
+                <h2>
+                    Why is writing our internal styling in the head the best rather than
+                    writing in the body?
+                  </h2>
+                  <p>
+                    A style element inside the body element violates HTML syntax rules,
+                    except that according to HTML5 drafts, it is allowed in some
+                    conditions, if the scoped attributes is present. It is recommended
+                    because when you have the CSS declared before body starts, the styles
+                    will be loaded already. So something appeared quickly on the user's
+                    screen. Otherwise, users see blank screen for some time before the CSS
+                    reaches the user. Also, if you leave the styles somewhere in the body,
+                    the browser has to re-load the page when the styles declared has been
+                    parsed.
+                  </p>
+            </li>
+        </ol>                  
+      </div>
+    </div>
+  </body>
+</html>

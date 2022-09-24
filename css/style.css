@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(70, 205, 254);
+  font-family: sans-serif, serif;
+}
+
+.container {
+  /* border: 1px solid red; */
+  background-color: rgb(255, 255, 255);
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 25px;
+}
+
+.text {
+  color: rgb(70, 205, 254);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.form {
+  padding: 8px 10px;
+  width: 100%;
+}
+
+input:first-child {
+  margin: 20px 0;
+}
+
+.input-last-child {
+  background-color: rgb(70, 205, 254);
+  color: rgb(255, 255, 255);
+  border: 0;
+}
